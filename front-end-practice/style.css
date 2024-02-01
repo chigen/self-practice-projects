@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  
+  .app-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .drink-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    width: 100%;
+    padding-left: 50px;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  .drink-item {
+    position: relative;
+    margin-bottom: 0px;
+  }
+  
+  .counter {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .drink-name {
+    text-align: left;
+  }
+  .price {
+    text-align: right;
+    margin-left: auto;
+  }
+  
+  .order-summary {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+  }
+  
+  
